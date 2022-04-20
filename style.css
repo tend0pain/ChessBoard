@@ -1,0 +1,66 @@
+/*704px is the size of the board*/
+/*so 88px for each square*/
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FDF6EC;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    width: 640px;
+    height: 640px;
+    /* border: 10px solid teal; */
+    background-color: #F3E9DD;
+    position: absolute;
+    border: solid pink 10px;
+    border-radius: 8px;
+}
+.dark {
+    width: 80px;
+    height: 80px;
+    background-color: #DAB88B;
+    float: left;
+    display: table-cell;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    background-color: #B7CADB;
+    float: left;
+    display: table-cell;
+}
+
+.fileName {
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: flex-start; */
+    font-family: monospace;
+}
+
+.rankName {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-family: monospace;
+}
+
+span {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#h1 {
+    display: flex;
+    align-items: flex-end;
+    bottom: 0px;
+    
+}
